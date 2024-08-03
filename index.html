@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.jpg">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <nav class="top">
+                <ul>
+                    <li><p class="nav-sr">Sr.No.<span class="nav-sr-no">001</span></p></li>
+                    <li><img src="bg2.png" alt="logo img" class="logo"></li>
+                    <li><img src="qr.png" alt="qr code" class="qr"></li>
+                </ul>
+            </nav>
+            <div class="head">
+                <h1>Hindusthan College of Engineering and Technology,</h1>
+                <h2>Coimbatore.</h2>
+                <h3>An Autonomous Institution recognized by Anna University.</h3>
+            </div>
+            <div class="mark-head">
+                <p>Annual Statement of Marks</p>
+            </div>
+            <div class="table-grp">
+                <div class="table-1">
+                    <table class="table-1-tb">
+                        <tr>
+                            <th colspan="2" class="td1">
+                                <p class="prob">Name of the Candidate</p>
+                                <p class="soln">Tarun Vasakam K</p>
+                            </th>
+                            <th colspan="2">
+                                <p class="prob">Course Name</p>
+                                <p class="soln">Electronics and Communication Engineering</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <p class="prob prog-reg">Register Number</p>
+                                <p class="soln">720721106114</p>
+                            </th>
+                            <th>
+                                <p class="prob prob-en">Enrollment Number</p>
+                                <p class="soln">HICET114</p>
+                            </th>
+                            <th>
+                                <p class="prob">Authorised Training Centre</p>
+                                <p class="soln">Sixphrase Training</p>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="table-2">
+                    <table id="marks-table">
+                        <tr>
+                            <th rowspan="2" class="col1"><p>Subject Code & Name</p></th>
+                            <th rowspan="2" class="col2"><p>Max Marks</p></th>
+                            <th colspan="3"><p>Marks Obtained</p></th>
+                            <th rowspan="2" class="col3"><p>In words</p></th>
+                        </tr>
+                        <tr>
+                            <th class="cal"><p>Theory</p></th>
+                            <th class="cal"><p>Practical</p></th>
+                            <th class="cal"><p>Total</p></th>
+                        </tr>
+                        <tr class="markrow">
+                            <td><p class="subcode">FS001&nbsp;&nbsp;&nbsp;&nbsp;HTML5</p></td>
+                            <td><p>100</p></td>
+                            <td><input type="text" class="theory" size="5" oninput="updatetot()"></td>
+                            <td><input type="text" class="practical" size="5" oninput="updatetot()"></td>
+                            <td><p class="totalmark">0</p></td>
+                            <td><p class="inword">Zero</p></td>
+                        </tr>
+                        <tr class="markrow">
+                            <td><p class="subcode">FS002&nbsp;&nbsp;&nbsp;&nbsp;CSS3</p></td>
+                            <td><p>100</p></td>
+                            <td><input type="text" class="theory" size="5" oninput="updatetot()"></td>
+                            <td><input type="text" class="practical" size="5" oninput="updatetot()"></td>
+                            <td><p class="totalmark">0</p></td>
+                            <td><p class="inword">Zero</p></td>
+                        </tr>
+                        <tr class="markrow">
+                            <td><p class="subcode">FS003&nbsp;&nbsp;&nbsp;&nbsp;JavaScript</p></td>
+                            <td><p>100</p></td>
+                            <td><input type="text" class="theory" size="5" oninput="updatetot()"></td>
+                            <td><input type="text" class="practical" size="5" oninput="updatetot()"></td>
+                            <td><p class="totalmark">0</p></td>
+                            <td><p class="inword">Zero</p></td>
+                        </tr>
+                        <tr class="markrow"> 
+                            <td><p class="subcode">FS004&nbsp;&nbsp;&nbsp;&nbsp;ReactJs</p></td>
+                            <td><p>100</p></td>
+                            <td><input type="text" class="theory" size="5" oninput="updatetot()"></td>
+                            <td><input type="text" class="practical" size="5" oninput="updatetot()"></td>
+                            <td><p class="totalmark">0</p></td>
+                            <td><p class="inword">Zero</p></td>
+                        </tr>
+                        <tr class="markrow">
+                            <td><p class="subcode">FS005&nbsp;&nbsp;&nbsp;&nbsp;Java</p></td>
+                            <td><p>100</p></td>
+                            <td><input type="text" class="theory" size="5" oninput="updatetot()"></td>
+                            <td><input type="text" class="practical" size="5" oninput="updatetot()"></td>
+                            <td><p class="totalmark">0</p></td>
+                            <td><p class="inword">Zero</p></td>
+                        </tr>
+                        <tr class="markrow">
+                            <td><p class="subcode">FS006&nbsp;&nbsp;&nbsp;&nbsp;NodeJs</p></td>
+                            <td><p>100</p></td>
+                            <td><input type="text" class="theory" size="5" oninput="updatetot()"></td>
+                            <td><input type="text" class="practical" size="5" oninput="updatetot()"></td>
+                            <td><p class="totalmark">0</p></td>
+                            <td><p class="inword">Zero</p></td>
+                        </tr>
+                        <tr class="markrow">
+                            <td><p class="subcode">FS007&nbsp;&nbsp;&nbsp;&nbsp;MySql</p></td>
+                            <td><p>100</p></td>
+                            <td><input type="text" class="theory" size="5" oninput="updatetot()"></td>
+                            <td><input type="text" class="practical" size="5" oninput="updatetot()"></td>
+                            <td><p class="totalmark">0</p></td>
+                            <td><p class="inword">Zero</p></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="table-3">
+                    <table>
+                        <tr>
+                            <th colspan="6" class="grandtot-th">Grand Total: <span id="grand-total">0</span> / 700</p></th>
+                        </tr>
+                        <tr>
+                            <th colspan="6">Grand Total in Words: <span id="grand-words">Zero</span></th>
+                        </tr>
+                        <tr>
+                            <th><p>Month and Year of Exam</p></th>
+                            <th><p>No. of Subjects</p></th>
+                            <th><p>Result</p></th>
+                            <th><p>Percentage</p></th>
+                            <th><p>Grade</p></th>
+                        </tr>
+                        <tr>
+                            <td id="year"><p>May 2020</p></td>
+                            <td id="sub">7</td>
+                            <td class="last-calc" id="result">-</td>
+                            <td class="last-calc"><span id="percentage">0.00</span> %</td>
+                            <td class="last-calc" id="grade">-</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="last">
+                <p class="last-p">Date: 14 May 2021</p>
+                <p class="last-p">Deputy Controller of Examination</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

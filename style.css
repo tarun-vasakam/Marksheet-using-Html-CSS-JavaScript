@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-image: url(bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.inner-container{
+    width: 780px;
+    margin: 10px;
+    border: 2px solid #a43000;
+    border-radius: 2px;
+}
+.logo{
+    margin-top: 5px;
+    height: 120px;
+}
+.qr{
+    height: 70px;
+    margin: 15px 15px 15px 15px;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-sr{
+    margin: 15px;
+    font-weight: bold;
+}
+.nav-sr-no{
+    color: crimson;
+}
+.head{
+    margin-top: 10px;
+    text-align: center;
+    color: #a43000;
+}
+.head h1{
+    font-size: 34px;
+}
+.head h3{
+    color: black;
+}
+.mark-head{
+    color: #a43000;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    font-family: Markazi Text, sans-serif;
+}
+.table-1,.table-2,.table-3{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 760px;
+}
+.table-1 table,.table-1 tr,.table-1 th,.table-1 td{
+    border: 1px dashed #a43000;
+    border-collapse: collapse;
+    text-align: center;
+}
+.td1{
+    width: 356px;
+}
+.total{
+    text-align: center;
+}
+.prob{
+    margin: 4px 0px 0px 0px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 100%;
+    color: #a43000;
+}
+.soln{
+    color: rgba(0, 0, 0, 0.856);
+    margin: 4px 0px 4px 0px;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: Markazi Text;
+}
+.col1{
+    width: 295px;
+}
+.col2{
+    width: 45x;
+}
+.cal{
+    width: 70px;
+}
+.col3{
+    width: 162px;
+}
+.subcode{
+    float: left;
+    padding-left: 61px;
+}
+input{
+    border: none;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: Markazi Text, sans-serif;
+    background-color: transparent;
+}
+input:focus{
+    outline: none;
+}
+.table-2 table,.table-2 tr,.table-2 td,.table-2 th{
+    border: 1px dashed #a43000;
+    border-collapse: collapse;
+    text-align: center;
+}
+.table-2 th,.table-3 th{
+    color: #a43000;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.table-2 td,.table-3 td{
+    color: rgba(0, 0, 0, 0.856);
+    height: 30px;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: Markazi Text, sans-serif;
+}
+.table-3 table,.table-3 tr,.table-3 td,.table-3 th{
+    border: 1px dashed #a43000;
+    border-collapse: collapse;
+    text-align: center;
+}
+.last{
+    margin: 45px 10px 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.last-p{
+    font-size:18px;
+    font-weight: bold;
+}
+#grand-total{
+    color: rgba(0, 0, 0, 0.856);
+}
+#grand-words{
+    color: rgba(0, 0, 0, 0.856);
+}
+#year{
+    width: 239px;
+}
+#sub{
+    width: 137px;
+}
+.last-calc{
+    width: 125px
+}
+
+
+
+
